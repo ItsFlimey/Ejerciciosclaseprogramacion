@@ -1,0 +1,14 @@
+let frase1 = prompt("Por favor, introduzca una frase: ");
+let frase2 = prompt("Y por último introduzca las dos otras frases: ");
+console.log(`Longitud de frase1: \n${frase1.length}`);
+console.log(`Longitud de frase2: \n${frase2.length}`);
+console.log(`Subcadena [5:10] de frase1: \n${frase1.substring(5,10)}`);
+console.log(`Subcadena [5:10] de frase2: \n${frase2.substring(5,10)}`);
+console.log(`Subcadena con los 10 últimos caracteres de frase2:\n${frase2.slice(-10)}`);
+console.log(`Frase 1 pero sin el carácter à o á: \n${frase1.replace("á","a").replace("à","a")}`);
+console.log(`Frase2 en mayúsculas:\n${frase2.toUpperCase()}`);
+console.log(`Frase 1 sin espacios en los bordes: \n${frase1.trim()}`);
+console.log(`Primera letra e en frase 1: \nPosición nº${frase1.indexOf("e")}`);
+console.log(`Segunda letra e en la frase 1: \nPosición nº${frase1.indexOf("e",(frase1.indexOf("e")+1))}`);
+console.log(`Última letra e en frase 1: \nPosición nº${frase1.lastIndexOf("e")}`);
+console.log(`Frase 1 repetida 5 veces:\n${frase1.repeat(5)}`);
