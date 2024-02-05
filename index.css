@@ -1,0 +1,33 @@
+* {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+body{background-color: cornflowerblue;}
+hr{border-radius: 200px;width:750px;border-color:rgb(104, 104, 104)}
+div#main-division{
+    background-color:white;
+    width:1000px;
+    height:2000px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:200px;}
+div#title{
+    width:1000px;}
+h1{
+    font-size:70px;
+    padding-left:170px;
+    padding-top:50px;}
+a{
+    text-decoration:underline;
+    color:black;
+    font:bold;}
+li{
+    background-color: rgb(174, 252, 255);
+    border:2px,black,solid;
+    padding:10px;
+    float:left;
+    list-style-type: none;
+    font-size:25px;}
+li ol{display:none;}
+li:hover ol{
+    display:block;
+    position:fixed;
+    margin-top:5px;}
+/*Hecho por: Daniel Martínez Foix*/
