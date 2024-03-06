@@ -28,10 +28,16 @@ li{
     float:left;
     list-style-type: none;
     font-size:25px;}
-li ol{display:none;}
-li:hover ol{
+li#menu ol{display:none;}
+li#menu:hover ol{
     display:block;
     position:absolute;
     margin-top:5px;
     padding-left:10px;}
-/*Hecho por: Daniel Martínez Foix*/
+li#menu:hover ol li ol{display:none;}
+li#menu:hover ol li:hover ol{
+    display:block;
+    position:absolute;
+    margin-top:5px;
+    padding-left:10px;}
+/*Permite los menus personalizados*/
